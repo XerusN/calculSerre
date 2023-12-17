@@ -1,0 +1,49 @@
+panneauToit x2 :
+dimension d'un panneauToit
+
+bois:(30mm*668mm)+10mm*256mm*2+688*30*2 =(66440)=46400
+verre:668mm*113mm*2+(30mm*668mm) =(150968) = 171008
+
+
+faceTriangulaire X2:
+dimension d'une face triangulaire
+
+bois:8565.44mm²*2+5400mm²+8006.56mm² = 30537
+verre:12213.33mm²*2 = 24426
+
+faceAvant x2:
+dimension d'une face Avant:
+
+bois :(9000mm²*2)+3000mm²*2+13920mm²*2 =(51840)=33840
+Verre :62400*2+60000+(9000mm²*2)=(184800)=202800
+
+faceLateral x2
+dimension d'une face lateral:
+
+bois:(9000mm²)+7800*2+10080*2=(44760) = 35760
+Verre:62700*2+(9000mm²)=(125400) = 134400
+
+
+RESULTATS :
+
+totalVerre:(485594) = 532634*2 = 1065268
+totalBoisVerre :(193577) = 146537*2 = 293074
+
+Surfacebois/SurfaceVerre = (0.39863) = 0.275
+
+Conduction simple à travers bois sans couche de plexis:
+
+20670mm²+6680mm²*2+960mm²*2  = 34990mm² total
+totalBoisMince = 20670
+totalBoisEpais = 15280
+en comptant cette surface on a en estimant que plexis n'isole pas grand chose
+Surfacebois/SurfaceVerre = (34990/2+totalBois)/totalVerre = 0.307
+
+Rq on peut tenter de supprimer les 20670
+15280mm²
+alors 
+Surfacebois/SurfaceVerre = (15280/2+totalBois)/totalVerre = 0.289
+
+Pour passer en dessous des 25% il faut tenrer de reduire les encadrements
+
+volume = 0.1549 m3
